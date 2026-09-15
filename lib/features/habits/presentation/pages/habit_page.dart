@@ -40,7 +40,10 @@ class HabitPage extends StatelessWidget {
 
                     const Text(
                       'Water your habits daily and watch them grow!',
-                      style: TextStyle(color: Color.fromARGB(255, 29, 26, 26), fontSize: 18),
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 29, 26, 26),
+                        fontSize: 18,
+                      ),
                     ),
 
                     const SizedBox(height: 50),

@@ -21,9 +21,7 @@ class HabitGardenApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (_) => HabitBloc(
-        getIt<HabitRepository>(),
-      )..add(LoadHabits()),
+      create: (_) => HabitBloc(getIt<HabitRepository>())..add(LoadHabits()),
 
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
